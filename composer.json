@@ -1,0 +1,21 @@
+{
+  "name": "music/crawler",
+  "version": "1.0",
+  "description": "A short package for dribbble crawler",
+  "authors": [
+    {
+      "name": "Googleboy",
+      "email": "info@googleboy.in"
+    }
+  ],
+  "require": {
+        "symfony/dom-crawler": "*",
+        "symfony/css-selector": "*"
+  },  
+  "autoload": {
+    "psr-4" : {
+      "Music\\" : "src"
+    }
+  }
+}
+
